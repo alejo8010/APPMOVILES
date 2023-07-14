@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/icono1"
+        android:title="icono1"
+        android:icon="@drawable/baseline_search_24"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/icono2"
+        android:title="icono2"
+        android:icon="@drawable/baseline_whatsapp_24"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/icono4"
+        android:title="crear horario"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/icono5"
+        android:title="salir"
+        app:showAsAction="never"/>
+</menu>
